@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy-Bald PirateAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a14072a93e661f84d9ec3c98d49af896, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 62ea4410680a7644f8b4ca972b78afe9, type: 3}
+  - {fileID: 21300000, guid: 1b882430cd2a0ae469b48ff9a0fe3b03, type: 3}
+  - {fileID: 21300000, guid: bf974990b401c1143860ee9db962b07f, type: 3}
+  - {fileID: 21300000, guid: 037c7c905f89b1d40b7e46ed20a924e1, type: 3}
+  - {fileID: 21300000, guid: 562cdbb014187d7408172ef8f86114b8, type: 3}
+  - {fileID: 21300000, guid: e0911ec01f88aa1438f295c261c7892d, type: 3}
+  - {fileID: 21300000, guid: 9636b95186d61374189c5baa3ee138f0, type: 3}
+  - {fileID: 21300000, guid: e803a7816f95e754189520d34fa2f598, type: 3}
+  - {fileID: 21300000, guid: 72fabbb175a18d24bbb0870de74dd431, type: 3}
+  - {fileID: 21300000, guid: 8d109cd199648d54488aed129c2caa88, type: 3}
+  - {fileID: 21300000, guid: a4fd1ff10aeea684e89336b9debf0ff6, type: 3}
+  - {fileID: 21300000, guid: 1c11617262e41d84ba8bb70d03d2b0c2, type: 3}
+  - {fileID: 21300000, guid: 493e65a20c1071a45b811f8bd29c99b0, type: 3}
+  - {fileID: 21300000, guid: c836a4b2b9d78654e8de562de4bf6a84, type: 3}
+  - {fileID: 21300000, guid: af569eb2f08b96240ac8c29e922f3b62, type: 3}
+  - {fileID: 21300000, guid: ff5726c21bb1bdf46822158aacaf0b82, type: 3}
+  - {fileID: 21300000, guid: 9b361be2f742352459e4843b1d8dec84, type: 3}
+  - {fileID: 21300000, guid: 937fe12307b20d74cbebed67f21cf4dc, type: 3}
+  - {fileID: 21300000, guid: cbf09e33ec7cad54297af63811578fb1, type: 3}
+  - {fileID: 21300000, guid: 44951c53abdf736428a906ab9a7d0127, type: 3}
+  - {fileID: 21300000, guid: 77ec2ca3acf106a44b0c59db9905f187, type: 3}
+  - {fileID: 21300000, guid: d6b21674d6235404e87588cc43dc9623, type: 3}
+  - {fileID: 21300000, guid: c7161e745d6d12e4ab88b7b5f3e3fa3d, type: 3}
+  - {fileID: 21300000, guid: 0390bf94696b27d44863a19d44aeaa8c, type: 3}
+  - {fileID: 21300000, guid: 51df4dc4a94cb7c4f9ba957b3ffdb293, type: 3}
+  - {fileID: 21300000, guid: fb2939e4f88242c459fce3704c1e40f3, type: 3}
+  - {fileID: 21300000, guid: 9b664de48f4439044a821f83a407de30, type: 3}
+  - {fileID: 21300000, guid: 62d860f450164de4e9ba877aa66d978f, type: 3}
+  - {fileID: 21300000, guid: aad9b3f438b75824095e1a9e6ccb0703, type: 3}
+  - {fileID: 21300000, guid: 175375459759756428c8a150f4f2c8d2, type: 3}
+  - {fileID: 21300000, guid: e0b25a45fed563f4aa7c4b7029572764, type: 3}
+  - {fileID: 21300000, guid: df77a906fd5b0814dacee77a19d776e4, type: 3}
+  - {fileID: 21300000, guid: f0e06116032d2ae41a4f48eb4c274be7, type: 3}
+  - {fileID: 21300000, guid: 0c466456020d8a04a935005f56a072b8, type: 3}
+  - {fileID: 21300000, guid: 1b03f1761c03a184cb024234fd8978ed, type: 3}
+  - {fileID: 21300000, guid: 5a602f968e6193644947496cc788b07c, type: 3}
+  - {fileID: 21300000, guid: 701b18a65f4bf1b4da78bce6651389ac, type: 3}
+  - {fileID: 21300000, guid: 98844eb63a18b1c47a1966acedc204e7, type: 3}
+  - {fileID: 21300000, guid: 1f5aa117e83470443bfc0197cccaf1b9, type: 3}
+  - {fileID: 21300000, guid: 62c51d17341d7cd4ebf599a97bfa36b0, type: 3}
+  - {fileID: 21300000, guid: a68778678e444ca44a127a81b5c755d4, type: 3}
+  - {fileID: 21300000, guid: 0c7ddf97637e3704aa70dfb5a7625f4c, type: 3}
+  - {fileID: 21300000, guid: 80dab2d78742af64faabd119d83674d8, type: 3}
+  - {fileID: 21300000, guid: 29d7ca183bb9b4f41806b94e31f63d77, type: 3}
+  - {fileID: 21300000, guid: 35b9de78ef4ddad4c8cfa166aebb27eb, type: 3}
+  - {fileID: 21300000, guid: ec482b98eb3173f428214d52d2799503, type: 3}
+  - {fileID: 21300000, guid: ef405bd8e2ea8234f93003bcc04c723e, type: 3}
+  - {fileID: 21300000, guid: e75524095b3c5a948a3535137329abfc, type: 3}
+  - {fileID: 21300000, guid: 43ea7609a54773449bbe2ebeb0adb3b9, type: 3}
+  - {fileID: 21300000, guid: 1ce625194848e9b44934892232488adb, type: 3}
+  - {fileID: 21300000, guid: 4fcf06297bf619a43b80957e0b60f578, type: 3}
+  - {fileID: 21300000, guid: 8b5945593509f5e46ab422d7af6061cc, type: 3}
+  - {fileID: 21300000, guid: eea52c793841b964dbf4ab0347941ffe, type: 3}
+  - {fileID: 21300000, guid: 48abdf79184271d439c43a3fe3c4df64, type: 3}
+  - {fileID: 21300000, guid: 81d25bc96b726e74c843e058f2904ef6, type: 3}
+  - {fileID: 21300000, guid: dc0b9c4a07c299e49ac2a791c6e41fb1, type: 3}
+  - {fileID: 21300000, guid: 190c7e5a7d1c8274fbd8b64e4e52051d, type: 3}
+  - {fileID: 21300000, guid: 65b7766abe68ebb439ac349fa4d30e3b, type: 3}
+  - {fileID: 21300000, guid: 40f444aacc5b28d42bc0ca42540d20c2, type: 3}
+  - {fileID: 21300000, guid: 561f6fba1b1224a409013ed3e070d746, type: 3}
+  - {fileID: 21300000, guid: fadd41ea036aa864c8a7d470f2ca90f9, type: 3}
+  - {fileID: 21300000, guid: 295e664b28adc4844b85292215605d53, type: 3}
+  - {fileID: 21300000, guid: 70aa1b5b18ae3c7488807d473b3f0a83, type: 3}
+  - {fileID: 21300000, guid: cb1b426bf269d384f8343b21d87fe0a1, type: 3}
+  - {fileID: 21300000, guid: d8ae7b7b3f59d574a971add48fc6d311, type: 3}
+  - {fileID: 21300000, guid: 1809b79ba8287af4faeee425f48cd8f3, type: 3}
+  - {fileID: 21300000, guid: c676296c3c86a9d4f91e2038198d63d3, type: 3}
+  - {fileID: 21300000, guid: 2812c18c03b6b054088705d0471656e1, type: 3}
+  - {fileID: 21300000, guid: e5bd289cd058ce74bbcec1c2db8542a4, type: 3}
+  - {fileID: 21300000, guid: ead469bcdf492c041903b30d19de4330, type: 3}
+  - {fileID: 21300000, guid: 13ece0cc1daba7747b87b6c44322b09f, type: 3}
+  - {fileID: 21300000, guid: 868f05dc39606a74e91d4cb4ffbc495c, type: 3}
+  - {fileID: 21300000, guid: 9c989d0d77e19fe4086f389fe9975da4, type: 3}
+  - {fileID: 21300000, guid: 9c72138dd14bfaf499231416c4f066e5, type: 3}
+  - {fileID: 21300000, guid: d9c7d09dfb1f45c4a8ff779f7d31a83f, type: 3}
+  - {fileID: 21300000, guid: 4568a79d59a2b1f47b9141158eb2747e, type: 3}
+  - {fileID: 21300000, guid: 113913cdd385ed04e9928e79a1350f63, type: 3}
+  - {fileID: 21300000, guid: 6daa0ecd3398b694496508d61f5fcce3, type: 3}
+  - {fileID: 21300000, guid: 80d926edf41fb0e419cf37f308fce24d, type: 3}
+  - {fileID: 21300000, guid: dfa6ff2e15cda744ebe3e1a1996e2110, type: 3}
+  - {fileID: 21300000, guid: ec6a61aeb910aeb4690e9a124f19f129, type: 3}
+  - {fileID: 21300000, guid: dfd3e82f2540f0a4d8a5a565c41744ad, type: 3}
+  - {fileID: 21300000, guid: d5576b3f31b13154c848479917b41178, type: 3}
+  - {fileID: 21300000, guid: da41935f141f00a4c99b397266cc28b8, type: 3}
+  - {fileID: 21300000, guid: 18a12d5fac99f2a4fb0c7503c6791b92, type: 3}
+  - {fileID: 21300000, guid: efd0b67f671cd0d4f8c7712c4cd4dcc9, type: 3}
+  - {fileID: 21300000, guid: 8a9b67bf60cdbca4b9c34250b7a01031, type: 3}
+  - {fileID: 21300000, guid: 345af7ef43534d342ac023ab25c7d5fd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 13
+  - 3
+  - 14
+  - 1
+  - 11
+  - 22
+  - 32
+  - 34
+  - 2
+  - 2
+  - 18
+  - 5
+  - 1
+  - 24
+  - 1
+  - 12
+  - 5
+  - 6
+  - 28
+  - 5
+  - 25
+  - 3
+  - 1
+  - 2
+  - 3
+  - 7
+  - 6
+  - 21
+  - 9
+  - 3
+  - 1
+  - 7
+  - 10
+  - 6
+  - 4
+  - 5
+  - 6
+  - 4
+  - 8
+  - 8
+  - 9
+  - 15
+  - 3
+  - 4
+  - 12
+  - 2
+  - 13
+  - 27
+  - 1
+  - 1
+  - 8
+  - 16
+  - 5
+  - 12
+  - 4
+  - 2
+  - 1
+  - 6
+  - 11
+  - 3
+  - 23
+  - 4
+  - 7
+  - 4
+  - 7
+  - 10
+  - 3
+  - 4
+  - 14
+  - 31
+  - 29
+  - 26
+  - 9
+  - 1
+  - 2
+  - 2
+  - 30
+  - 2
+  - 2
+  - 11
+  - 8
+  - 10
+  - 20
+  - 1
+  - 33
+  - 19
+  - 17
+  m_RenderDataMap: {}
+  m_Tag: Enemy-Bald PirateAtlas
+  m_IsVariant: 0
