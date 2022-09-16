@@ -120,9 +120,9 @@ TextureImporter:
       name: Tile-Sets (64-64)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 256
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -164,7 +164,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 256
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -246,9 +246,9 @@ TextureImporter:
       name: Tile-Sets (64-64)_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 192
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -290,7 +290,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 192
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -372,9 +372,9 @@ TextureImporter:
       name: Tile-Sets (64-64)_12
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 128
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -416,7 +416,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 128
-        width: 64
+        width: 62
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -521,7 +521,7 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 64
+        width: 63
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -647,7 +647,7 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
+        width: 63
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
