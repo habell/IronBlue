@@ -13101,6 +13101,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4996106628565294202, guid: 8753fa208ee882249a64be1d8745568f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9003181842135634998, guid: 8753fa208ee882249a64be1d8745568f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -13121,7 +13125,7 @@ Animation:
   m_GameObject: {fileID: 4964377670723054553}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: ef0b066b738f3de4e8c6241da686bf65, type: 2}
+  m_Animation: {fileID: 7400000, guid: e5d95a9525f5b764ca1e31f105d60549, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
