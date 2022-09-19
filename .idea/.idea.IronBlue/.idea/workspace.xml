@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Death.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoorIn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorIn.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoorOut.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorOut.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jumping.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jumping.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OnGround.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OnGround.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerAnimations.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerAnimations.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TakeDamage.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TakeDamage.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +91,9 @@
       <workItem from="1663341144417" duration="1903000" />
       <workItem from="1663448276307" duration="135000" />
       <workItem from="1663448427513" duration="74000" />
-      <workItem from="1663497462619" duration="6310000" />
+      <workItem from="1663497462619" duration="6401000" />
+      <workItem from="1663542030307" duration="595000" />
+      <workItem from="1663583572896" duration="2084000" />
     </task>
     <servers />
   </component>
