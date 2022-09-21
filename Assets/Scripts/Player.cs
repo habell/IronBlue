@@ -14,4 +14,9 @@ public class Player : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>(); 
         _playerMoveController = new PlayerMoveController(this, _rigidbody2D);
     }
+
+    private void Update()
+    {
+        _playerMoveController.Update();
+    }
 }
