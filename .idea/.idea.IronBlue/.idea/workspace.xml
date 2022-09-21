@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +21,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24d45e813e524a99bfb7a145158a7980157a00/d3/7eae6f2e/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,7 +99,7 @@
       <workItem from="1663497462619" duration="6401000" />
       <workItem from="1663542030307" duration="595000" />
       <workItem from="1663583572896" duration="2680000" />
-      <workItem from="1663696127966" duration="9793000" />
+      <workItem from="1663696127966" duration="10297000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1663793662399</created>
@@ -121,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663793702155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="player move">
+      <created>1663796001228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663796001228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add movecontroller func">
+      <created>1663796031410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663796031410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +151,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="." />
     <MESSAGE value="added player controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="added player controller" />
+    <MESSAGE value="player move" />
+    <MESSAGE value="add movecontroller func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add movecontroller func" />
   </component>
 </project>
