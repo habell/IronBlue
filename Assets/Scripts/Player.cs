@@ -1,18 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private PlayerMoveController _playerMoveController;
+    private Rigidbody2D _rigidbody2D;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        _rigidbody2D = GetComponent<Rigidbody2D>(); 
+        _playerMoveController = new PlayerMoveController(this, _rigidbody2D);
     }
 }
