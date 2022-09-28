@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        if (!_playerParameters) throw new Exception("ERROR!! PLEASE ADD Player parameters scriptable obj!");
         _rigidbody2D = GetComponent<Rigidbody2D>(); 
         _playerMoveController = new PlayerMoveController(this, _rigidbody2D);
     }
