@@ -7,6 +7,7 @@ namespace DefaultNamespace
     public struct PlayerData
     {
         public float MaxJumpValue;
+        public float MaxSpeed;
         public float Health;
     }
 }

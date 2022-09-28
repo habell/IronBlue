@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,10 @@
     <setting file="mock://C:/Unity/IronBlue/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Prefabs/Player.prefab.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -107,7 +112,7 @@
       <workItem from="1663840298397" duration="1988000" />
       <workItem from="1663948429670" duration="28000" />
       <workItem from="1664316603175" duration="3602000" />
-      <workItem from="1664349198010" duration="1321000" />
+      <workItem from="1664349198010" duration="6902000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1663793662399</created>
@@ -193,7 +198,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664350528945</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pl parameters scriptable object">
+      <created>1664350568143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664350568143</updated>
+    </task>
+    <task id="LOCAL-00014" summary="remove">
+      <created>1664350619277</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664350619277</updated>
+    </task>
+    <task id="LOCAL-00015" summary="save scene">
+      <created>1664350653152</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664350653152</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add exception">
+      <created>1664350772084</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664350772084</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +250,10 @@
     <MESSAGE value="crete player prefab" />
     <MESSAGE value="create player data struct" />
     <MESSAGE value="add jump and remove not usable elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jump and remove not usable elements" />
+    <MESSAGE value="pl parameters scriptable object" />
+    <MESSAGE value="remove" />
+    <MESSAGE value="save scene" />
+    <MESSAGE value="add exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exception" />
   </component>
 </project>

@@ -22,15 +22,18 @@ public class PlayerMoveController
     public void Update()
     {
         _horizontalInput = Input.GetAxisRaw("Horizontal");
-
+        
         if (_horizontalInput != 0)
         {
-            _rigidbody2D.AddForce(Vector2.right * (_horizontalInput * 10));
+            if (_rigidbody2D.velocity.x < _parameters.MaxSpeed & _rigidbody2D.velocity.x > -_parameters.MaxSpeed)
+            {
+                _rigidbody2D.AddForce(Vector2.right * (_horizontalInput * 10));
+            }
         }
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (_rigidbody2D.velocity.y < 0.001 & _rigidbody2D.velocity.y > -0.001 & !_jumped)
+            if (_rigidbody2D.velocity.y < 0.001 & _rigidbody2D.velocity.y > -0.001 & _jumped)
             {
                 _jumped = false;
             }
