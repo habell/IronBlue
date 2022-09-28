@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +27,7 @@
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -112,7 +108,7 @@
       <workItem from="1663840298397" duration="1988000" />
       <workItem from="1663948429670" duration="28000" />
       <workItem from="1664316603175" duration="3602000" />
-      <workItem from="1664349198010" duration="6902000" />
+      <workItem from="1664349198010" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1663793662399</created>
@@ -226,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664350772084</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change move style, and add max speed parameter">
+      <created>1664376845791</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664376845791</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +257,7 @@
     <MESSAGE value="remove" />
     <MESSAGE value="save scene" />
     <MESSAGE value="add exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exception" />
+    <MESSAGE value="change move style, and add max speed parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="change move style, and add max speed parameter" />
   </component>
 </project>

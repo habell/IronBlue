@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   _parameters:
-    MaxJumpValue: 200
+    MaxJumpValue: 300
+    MaxSpeed: 4
     Health: 100
