@@ -6,8 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    private PlayerParameters _playerParameters;
+
     private PlayerMoveController _playerMoveController;
     private Rigidbody2D _rigidbody2D;
+
+    public PlayerParameters PlayerParameters => _playerParameters;
 
     private void Awake()
     {
