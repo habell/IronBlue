@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   _parameters:
-    MaxJumpValue: 213
-    Health: 123
+    MaxJumpValue: 200
+    Health: 100
