@@ -1,18 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private PlayerParameters _playerParameters;
+
+    private PlayerMoveController _playerMoveController;
+    private Rigidbody2D _rigidbody2D;
+
+    public PlayerParameters PlayerParameters => _playerParameters;
+
+    private void Awake()
     {
-        
+        if (!_playerParameters) throw new Exception("ERROR!! PLEASE ADD Player parameters scriptable obj!");
+        _rigidbody2D = GetComponent<Rigidbody2D>(); 
+        _playerMoveController = new PlayerMoveController(this, _rigidbody2D);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        _playerMoveController.Update();
     }
 }
