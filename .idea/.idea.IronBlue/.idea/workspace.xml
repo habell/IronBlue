@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,30 +21,11 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Unity/IronBlue/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Prefabs/Player.prefab.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/IronBlue/Assets/Scripts/PlayerMoveController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24d45e813e524a99bfb7a145158a7980157a00/d3/7eae6f2e/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/0b/1d73b2cd/MethodImplAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4a91f199aff8e0e187cfc4b284b295c84c1a6afbec11c6f1d4115fe816212/System.Runtime.CompilerServices.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Er5zQSyQUP6oW7YxEhfPMuBN6F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -50,19 +34,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\2021.3.9f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity\IronBlue -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\IronBlue" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -98,138 +82,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663341131909</updated>
-      <workItem from="1663341144417" duration="1903000" />
-      <workItem from="1663448276307" duration="135000" />
-      <workItem from="1663448427513" duration="74000" />
-      <workItem from="1663497462619" duration="6401000" />
-      <workItem from="1663542030307" duration="595000" />
-      <workItem from="1663583572896" duration="2680000" />
-      <workItem from="1663696127966" duration="10759000" />
-      <workItem from="1663840298397" duration="1988000" />
-      <workItem from="1663948429670" duration="28000" />
-      <workItem from="1664316603175" duration="3602000" />
-      <workItem from="1664349198010" duration="6978000" />
+      <workItem from="1663341144417" duration="1302000" />
+      <workItem from="1664570887475" duration="139000" />
     </task>
-    <task id="LOCAL-00001" summary="initial">
-      <created>1663793662399</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663793662399</updated>
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <created>1663793681473</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663793681473</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added player controller">
-      <created>1663793702155</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663793702155</updated>
-    </task>
-    <task id="LOCAL-00004" summary="player move">
-      <created>1663796001228</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1663796001228</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add movecontroller func">
-      <created>1663796031410</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1663796031410</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add jumb base">
-      <created>1663796452261</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663796452261</updated>
-    </task>
-    <task id="LOCAL-00007" summary="save">
-      <created>1663796461381</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663796461381</updated>
-    </task>
-    <task id="LOCAL-00008" summary="move animations to anim folder">
-      <created>1664350375267</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350375267</updated>
-    </task>
-    <task id="LOCAL-00009" summary="move files">
-      <created>1664350426030</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350426030</updated>
-    </task>
-    <task id="LOCAL-00010" summary="crete player prefab">
-      <created>1664350460073</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350460073</updated>
-    </task>
-    <task id="LOCAL-00011" summary="create player data struct">
-      <created>1664350478747</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350478747</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add jump and remove not usable elements">
-      <created>1664350528945</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350528945</updated>
-    </task>
-    <task id="LOCAL-00013" summary="pl parameters scriptable object">
-      <created>1664350568143</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350568143</updated>
-    </task>
-    <task id="LOCAL-00014" summary="remove">
-      <created>1664350619277</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350619277</updated>
-    </task>
-    <task id="LOCAL-00015" summary="save scene">
-      <created>1664350653152</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350653152</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add exception">
-      <created>1664350772084</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1664350772084</updated>
-    </task>
-    <task id="LOCAL-00017" summary="change move style, and add max speed parameter">
-      <created>1664376845791</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1664376845791</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,25 +94,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="initial" />
-    <MESSAGE value="." />
-    <MESSAGE value="added player controller" />
-    <MESSAGE value="player move" />
-    <MESSAGE value="add movecontroller func" />
-    <MESSAGE value="add jumb base" />
-    <MESSAGE value="save" />
-    <MESSAGE value="move animations to anim folder" />
-    <MESSAGE value="move files" />
-    <MESSAGE value="crete player prefab" />
-    <MESSAGE value="create player data struct" />
-    <MESSAGE value="add jump and remove not usable elements" />
-    <MESSAGE value="pl parameters scriptable object" />
-    <MESSAGE value="remove" />
-    <MESSAGE value="save scene" />
-    <MESSAGE value="add exception" />
-    <MESSAGE value="change move style, and add max speed parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="change move style, and add max speed parameter" />
   </component>
 </project>
