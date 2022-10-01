@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +22,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Er5zQSyQUP6oW7YxEhfPMuBN6F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -92,8 +83,37 @@
       <updated>1663341131909</updated>
       <workItem from="1663341144417" duration="1302000" />
       <workItem from="1664570887475" duration="139000" />
-      <workItem from="1664654650244" duration="357000" />
+      <workItem from="1664654650244" duration="942000" />
     </task>
+    <task id="LOCAL-00001" summary="init interface">
+      <created>1664655522675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664655522675</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create interface folder">
+      <created>1664655542379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664655542379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Enemy enum">
+      <created>1664655559247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664655559247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create structures folder and move cripts">
+      <created>1664655590762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664655590762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +122,23 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init interface" />
+    <MESSAGE value="create interface folder" />
+    <MESSAGE value="Enemy enum" />
+    <MESSAGE value="create structures folder and move cripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="create structures folder and move cripts" />
   </component>
 </project>
