@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +54,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\2021.3.9f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\2021.3.11f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity\IronBlue -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\IronBlue" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -84,6 +92,7 @@
       <updated>1663341131909</updated>
       <workItem from="1663341144417" duration="1302000" />
       <workItem from="1664570887475" duration="139000" />
+      <workItem from="1664654650244" duration="357000" />
     </task>
     <servers />
   </component>
