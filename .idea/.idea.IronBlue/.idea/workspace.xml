@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="upd" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="upd wks">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/1-Idle/1.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/3-Jump Anticipation/1.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cucumber.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/PlayerParameters.cs" root0="SKIP_HIGHLIGHTING" />
@@ -93,7 +97,7 @@
       <workItem from="1664570887475" duration="139000" />
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
-      <workItem from="1664702912916" duration="9013000" />
+      <workItem from="1664702912916" duration="9102000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664743944878</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add enemy and cannon prefab">
+      <created>1664743991451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743991451</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upd wks">
+      <created>1664744001706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664744001706</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +226,8 @@
     <MESSAGE value="cannon dynamic" />
     <MESSAGE value="save" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="add enemy and cannon prefab" />
+    <MESSAGE value="upd wks" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd wks" />
   </component>
 </project>
