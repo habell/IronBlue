@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="upd wks">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterDir="false" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="create bullet script">
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1664570887475" duration="139000" />
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
-      <workItem from="1664702912916" duration="9102000" />
+      <workItem from="1664702912916" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664744001706</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create bullet script">
+      <created>1664744059593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664744059593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +234,7 @@
     <MESSAGE value="upd" />
     <MESSAGE value="add enemy and cannon prefab" />
     <MESSAGE value="upd wks" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd wks" />
+    <MESSAGE value="create bullet script" />
+    <option name="LAST_COMMIT_MESSAGE" value="create bullet script" />
   </component>
 </project>
