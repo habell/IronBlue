@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="save scene">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Cannon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Cannon/Cannon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Cannon/Cannon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/1-Idle/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/1-Idle/1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/3-Jump Anticipation/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/3-Jump Anticipation/1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cucumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cucumber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="upd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +17,13 @@
         <option name="url" value="git@github.com:habell/IronBlue.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/1-Idle/1.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/3-Jump Anticipation/1.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cucumber.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/PlayerParameters.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,7 +93,7 @@
       <workItem from="1664570887475" duration="139000" />
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
-      <workItem from="1664702912916" duration="8484000" />
+      <workItem from="1664702912916" duration="9013000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -138,7 +130,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664657643316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create cannon">
+      <created>1664743814635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743814635</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cannon png">
+      <created>1664743833898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743833898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cucumber enemy">
+      <created>1664743864833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743864833</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cannon dynamic">
+      <created>1664743889388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743889388</updated>
+    </task>
+    <task id="LOCAL-00010" summary="save">
+      <created>1664743913107</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743913107</updated>
+    </task>
+    <task id="LOCAL-00011" summary="upd">
+      <created>1664743944878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664743944878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +202,12 @@
     <MESSAGE value="add enemy cucumber" />
     <MESSAGE value="cucumber" />
     <MESSAGE value="save scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="save scene" />
+    <MESSAGE value="create cannon" />
+    <MESSAGE value="cannon png" />
+    <MESSAGE value="cucumber enemy" />
+    <MESSAGE value="cannon dynamic" />
+    <MESSAGE value="save" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
 </project>
