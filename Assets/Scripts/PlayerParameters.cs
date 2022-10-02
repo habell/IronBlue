@@ -1,9 +1,8 @@
 ﻿using DefaultNamespace;
-using UnityEditor.U2D.Path;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-[CreateAssetMenu(fileName = "Player", menuName = "Player parametersz", order = 0)]
+[CreateAssetMenu(fileName = "Player", menuName = "Player parameters", order = 0)]
 public class PlayerParameters : ScriptableObject
 {
     [FormerlySerializedAs("_data")]
