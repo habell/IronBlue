@@ -1,6 +1,8 @@
 ﻿using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace DefaultNamespace
 {
@@ -8,15 +10,28 @@ namespace DefaultNamespace
     public class Cannon : MonoBehaviour
     {
         [SerializeField]
+        private Bullet _bulletPrefab;
+        
+        [SerializeField]
         private Transform _muzzle;
+
+        [SerializeField]
+        private Transform _shotPos;
         
         private MuzzleCannon _muzzleCannon;
         
         private Collider2D _target;
 
+        private BulletPool _bulletPool;
+
+        public Transform Muzzle => _muzzle;
+
+        public BulletPool BulletPool => _bulletPool;
+
         private void Awake()
         {
-            _muzzleCannon = new(_muzzle);
+            _bulletPool = new BulletPool(_shotPos, _bulletPrefab);
+            _muzzleCannon = new MuzzleCannon(this);
         }
 
         private void OnTriggerEnter2D(Collider2D col)
@@ -25,6 +40,7 @@ namespace DefaultNamespace
             {
                 _target = col;
                 _muzzleCannon.SetTarget(_target.transform);
+                StartCoroutine(ShootigTimer());
             }
         }
 
@@ -34,6 +50,7 @@ namespace DefaultNamespace
             {
                 _target = null;
                 _muzzleCannon.SetTarget(null);
+                StartCoroutine(ShootigTimer());
             }
         }
 
@@ -43,6 +60,35 @@ namespace DefaultNamespace
             {
                 _muzzleCannon.Update();
             }
+        }
+        
+        private void Shot()
+        {
+            var bullet = _bulletPool.GetBullet();
+            _bulletPool.SetActiveBullet(bullet);
+            StartCoroutine(ShotBullet(bullet));
+            bullet.RigidBody2D.AddForce(_shotPos.up * 100);
+        }
+        
+        private IEnumerator ShootigTimer()
+        {
+            while (true)
+            {
+                yield return new WaitForSeconds(1);
+                Shot();
+                if (!_target)
+                {
+                    yield break;
+                }
+            }
+        }
+        
+        
+        private IEnumerator ShotBullet(Bullet bullet)
+        {
+            yield return new WaitForSeconds(3);
+            _bulletPool.ReturnToPool(bullet);
+            yield return null;
         }
     }
 }
