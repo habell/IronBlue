@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="add new pickupable interface">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Health_PickUp.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Health_PickUp.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/Health.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/Health.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthPickUp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthPickUp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelEndPickUp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelEndPickUp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstract/PickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/PickUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPickUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPickUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPickUpable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPickUpable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +25,16 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/a8/4bd9266d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/e3/9a9dd682/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Abstract/PickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/BulletPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cannon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/HealthPickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Interfaces/IPickUpable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Interfaces/IPickUpable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/MuzzleCannon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -329,7 +318,63 @@
       <option name="project" value="LOCAL" />
       <updated>1664833032271</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="create Health system">
+      <created>1664837352717</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837352717</updated>
+    </task>
+    <task id="LOCAL-00032" summary="create HealthPickUp and his prefab">
+      <created>1664837378831</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837378831</updated>
+    </task>
+    <task id="LOCAL-00033" summary="remove non usable interface">
+      <created>1664837404453</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837404453</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove dont usable">
+      <created>1664837480003</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837480003</updated>
+    </task>
+    <task id="LOCAL-00035" summary="create level end script and his pickUp">
+      <created>1664837495254</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837495254</updated>
+    </task>
+    <task id="LOCAL-00036" summary="remove interface, and remove trygetcomponent, edit Pick function">
+      <created>1664837579735</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837579735</updated>
+    </task>
+    <task id="LOCAL-00037" summary="create and add health script for player">
+      <created>1664837622561</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837622561</updated>
+    </task>
+    <task id="LOCAL-00038" summary="biggest level">
+      <created>1664837635601</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664837635601</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,14 +397,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create cannon" />
-    <MESSAGE value="cannon png" />
-    <MESSAGE value="cucumber enemy" />
-    <MESSAGE value="cannon dynamic" />
-    <MESSAGE value="save" />
-    <MESSAGE value="upd" />
-    <MESSAGE value="add enemy and cannon prefab" />
-    <MESSAGE value="upd wks" />
     <MESSAGE value="create bullet script" />
     <MESSAGE value="create new level" />
     <MESSAGE value="create bullet" />
@@ -377,7 +414,15 @@
     <MESSAGE value="switch folder" />
     <MESSAGE value="start make picupable system" />
     <MESSAGE value="pickup base" />
-    <option name="LAST_COMMIT_MESSAGE" value="pickup base" />
+    <MESSAGE value="create Health system" />
+    <MESSAGE value="create HealthPickUp and his prefab" />
+    <MESSAGE value="remove non usable interface" />
+    <MESSAGE value="remove dont usable" />
+    <MESSAGE value="create level end script and his pickUp" />
+    <MESSAGE value="remove interface, and remove trygetcomponent, edit Pick function" />
+    <MESSAGE value="create and add health script for player" />
+    <MESSAGE value="biggest level" />
+    <option name="LAST_COMMIT_MESSAGE" value="biggest level" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
