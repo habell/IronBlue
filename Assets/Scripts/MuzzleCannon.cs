@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using DefaultNamespace.Interfaces;
 using UnityEngine;
 
@@ -10,9 +11,12 @@ namespace DefaultNamespace
 
         private Transform _aim;
 
-        public MuzzleCannon(Transform muzzle)
+        private readonly Cannon _cannon;
+
+        public MuzzleCannon(Cannon cannon)
         {
-            _muzzle = muzzle;
+            _cannon = cannon;
+            _muzzle = _cannon.Muzzle;
         }
 
         public void SetTarget(Transform target)
@@ -27,5 +31,6 @@ namespace DefaultNamespace
             _muzzle.rotation =
                 Quaternion.AngleAxis(Vector2.Angle(Vector2.down, dir), Vector3.Cross(Vector2.down, dir));
         }
+
     }
 }
