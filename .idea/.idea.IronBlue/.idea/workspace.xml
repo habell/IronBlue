@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="create bullet script">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="bullet prefab">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Cannon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Cannon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +35,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/1-Idle/1.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Resources/Sprites/3-Enemy-Cucumber/3-Jump Anticipation/1.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cucumber.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/PlayerParameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/ea/01d4baf8/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/19/9c7c5d20/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/73/b37c5088/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/a8/4bd9266d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/e3/9a9dd682/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,10 +87,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25240">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25240" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -96,7 +110,8 @@
       <workItem from="1664570887475" duration="139000" />
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
-      <workItem from="1664702912916" duration="9778000" />
+      <workItem from="1664702912916" duration="10363000" />
+      <workItem from="1664788871731" duration="13908000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -196,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664744059593</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="create new level">
+      <created>1664745643160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664745643160</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create bullet">
+      <created>1664804996767</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664804996767</updated>
+    </task>
+    <task id="LOCAL-00017" summary="bullet prefab">
+      <created>1664805016660</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805016660</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +271,28 @@
     <MESSAGE value="add enemy and cannon prefab" />
     <MESSAGE value="upd wks" />
     <MESSAGE value="create bullet script" />
-    <option name="LAST_COMMIT_MESSAGE" value="create bullet script" />
+    <MESSAGE value="create new level" />
+    <MESSAGE value="create bullet" />
+    <MESSAGE value="bullet prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="bullet prefab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs</url>
+          <line>41</line>
+          <properties documentPath="D:\UnityProjects\IronBlue\Assets\Scripts\BulletPool.cs" initialLine="40" containingFunctionPresentation="method 'GetBullet'">
+            <startOffsets>
+              <option value="1167" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1181" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
