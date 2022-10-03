@@ -7,15 +7,19 @@ namespace DefaultNamespace
     public class BulletPool
     {
         private const byte DEFAULT_BULLET_POOL = 5;
+        private const string POOL_AMMO_NAME = "AMMO_POOL";
+        
         private List<Bullet> _bullets = new();
+        
         private Transform _poolParent;
+        
         private BulletFactory _bulletFactory;
 
         public Transform PoolParent => _poolParent;
 
         public BulletPool(Transform poolParent, Bullet bullet)
         {
-            _poolParent = new GameObject(NameManager.POOL_AMMO_NAME).transform;
+            _poolParent = new GameObject(POOL_AMMO_NAME).transform;
             _poolParent.SetParent(poolParent);
             _poolParent.transform.position = poolParent.position;
 
