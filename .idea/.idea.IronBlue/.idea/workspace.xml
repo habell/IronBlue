@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="bullet prefab">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Cannon.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Cannon.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IHealth.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NameManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="workspace and scene save" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +24,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/73/b37c5088/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/a8/4bd9266d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/e3/9a9dd682/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cannon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/MuzzleCannon.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,7 +98,7 @@
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
       <workItem from="1664702912916" duration="10363000" />
-      <workItem from="1664788871731" duration="13908000" />
+      <workItem from="1664788871731" duration="14152000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -232,7 +219,63 @@
       <option name="project" value="LOCAL" />
       <updated>1664805016660</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="bullet factory create (need prefab)">
+      <created>1664827352780</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827352780</updated>
+    </task>
+    <task id="LOCAL-00019" summary="universal pool">
+      <created>1664827372191</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827372191</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add shot pos, pool and some functions">
+      <created>1664827399147</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827399147</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add new parameters">
+      <created>1664827433910</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827433910</updated>
+    </task>
+    <task id="LOCAL-00022" summary="health interface">
+      <created>1664827460698</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827460698</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add DI">
+      <created>1664827515034</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827515035</updated>
+    </task>
+    <task id="LOCAL-00024" summary="name const manager">
+      <created>1664827537183</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827537183</updated>
+    </task>
+    <task id="LOCAL-00025" summary="workspace and scene save">
+      <created>1664827565044</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664827565044</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,8 +298,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="init interface" />
-    <MESSAGE value="create interface folder" />
     <MESSAGE value="Enemy enum" />
     <MESSAGE value="create structures folder and move cripts" />
     <MESSAGE value="add enemy cucumber" />
@@ -274,7 +315,15 @@
     <MESSAGE value="create new level" />
     <MESSAGE value="create bullet" />
     <MESSAGE value="bullet prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="bullet prefab" />
+    <MESSAGE value="bullet factory create (need prefab)" />
+    <MESSAGE value="universal pool" />
+    <MESSAGE value="add shot pos, pool and some functions" />
+    <MESSAGE value="add new parameters" />
+    <MESSAGE value="health interface" />
+    <MESSAGE value="add DI" />
+    <MESSAGE value="name const manager" />
+    <MESSAGE value="workspace and scene save" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace and scene save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
