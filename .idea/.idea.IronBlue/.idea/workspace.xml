@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="workspace and scene save" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="pickup base">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +29,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/e3/9a9dd682/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/BulletPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Cannon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/MuzzleCannon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +103,7 @@
       <workItem from="1664654650244" duration="942000" />
       <workItem from="1664657431663" duration="961000" />
       <workItem from="1664702912916" duration="10363000" />
-      <workItem from="1664788871731" duration="14152000" />
+      <workItem from="1664788871731" duration="16745000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -275,7 +280,42 @@
       <option name="project" value="LOCAL" />
       <updated>1664827565044</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="create new folder">
+      <created>1664832817213</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664832817213</updated>
+    </task>
+    <task id="LOCAL-00027" summary="remove name manager">
+      <created>1664832947097</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664832947097</updated>
+    </task>
+    <task id="LOCAL-00028" summary="switch folder">
+      <created>1664832975622</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1664832975622</updated>
+    </task>
+    <task id="LOCAL-00029" summary="start make picupable system">
+      <created>1664833001730</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1664833001730</updated>
+    </task>
+    <task id="LOCAL-00030" summary="pickup base">
+      <created>1664833032271</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1664833032271</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,11 +338,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Enemy enum" />
-    <MESSAGE value="create structures folder and move cripts" />
-    <MESSAGE value="add enemy cucumber" />
-    <MESSAGE value="cucumber" />
-    <MESSAGE value="save scene" />
     <MESSAGE value="create cannon" />
     <MESSAGE value="cannon png" />
     <MESSAGE value="cucumber enemy" />
@@ -323,20 +358,25 @@
     <MESSAGE value="add DI" />
     <MESSAGE value="name const manager" />
     <MESSAGE value="workspace and scene save" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace and scene save" />
+    <MESSAGE value="create new folder" />
+    <MESSAGE value="remove name manager" />
+    <MESSAGE value="switch folder" />
+    <MESSAGE value="start make picupable system" />
+    <MESSAGE value="pickup base" />
+    <option name="LAST_COMMIT_MESSAGE" value="pickup base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs</url>
-          <line>41</line>
+          <line>45</line>
           <properties documentPath="D:\UnityProjects\IronBlue\Assets\Scripts\BulletPool.cs" initialLine="40" containingFunctionPresentation="method 'GetBullet'">
             <startOffsets>
-              <option value="1167" />
+              <option value="1241" />
             </startOffsets>
             <endOffsets>
-              <option value="1181" />
+              <option value="1255" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
