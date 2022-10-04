@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 381325695}
   - component: {fileID: 381325694}
   m_Layer: 0
-  m_Name: ' '
+  m_Name: BombRotator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
