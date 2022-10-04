@@ -1,17 +1,15 @@
-﻿using System;
-using Interfaces;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DefaultNamespace.Abstract
 {
     [RequireComponent(typeof(BoxCollider2D))]
-    public abstract class PickUp : MonoBehaviour, IPickUp
+    public abstract class PickUp : MonoBehaviour
     {
         private BoxCollider2D _boxCollider2D;
 
         protected BoxCollider2D BoxCollider2D => _boxCollider2D;
 
-        protected abstract void Pick(IPickUpable pickuper);
+        protected abstract void Pick(Collider2D pickuper);
         
         private void Awake()
         {
@@ -20,10 +18,7 @@ namespace DefaultNamespace.Abstract
 
         private void OnTriggerEnter2D(Collider2D col)
         {
-            if (TryGetComponent(out IPickUpable pickuper))
-            {
-                Pick(pickuper);
-            }
+            Pick(col);
         }
     }
 }
