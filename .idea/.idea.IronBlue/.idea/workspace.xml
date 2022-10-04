@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="create bomb rotator">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/KillerZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/KillerZone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KillerBomb.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KillerBomb.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Palettes/Platform Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Palettes/Platform Palette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/a8/4bd9266d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/e3/9a9dd682/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/UnityProjects/IronBlue/Assets/Palettes/Platform Palette.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +103,7 @@
       <workItem from="1664657431663" duration="961000" />
       <workItem from="1664702912916" duration="10363000" />
       <workItem from="1664788871731" duration="16745000" />
-      <workItem from="1664877105000" duration="1009000" />
+      <workItem from="1664877105000" duration="1711000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -368,7 +371,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664837635601</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="create spring board">
+      <created>1664898924464</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664898924464</updated>
+    </task>
+    <task id="LOCAL-00040" summary="create enemy cucumber prefab">
+      <created>1664898943175</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664898943175</updated>
+    </task>
+    <task id="LOCAL-00041" summary="springboard">
+      <created>1664899053463</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664899053463</updated>
+    </task>
+    <task id="LOCAL-00042" summary="create bomb rotator">
+      <created>1664899074847</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1664899074847</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,10 +422,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create bullet script" />
-    <MESSAGE value="create new level" />
-    <MESSAGE value="create bullet" />
-    <MESSAGE value="bullet prefab" />
     <MESSAGE value="bullet factory create (need prefab)" />
     <MESSAGE value="universal pool" />
     <MESSAGE value="add shot pos, pool and some functions" />
@@ -416,7 +443,11 @@
     <MESSAGE value="remove interface, and remove trygetcomponent, edit Pick function" />
     <MESSAGE value="create and add health script for player" />
     <MESSAGE value="biggest level" />
-    <option name="LAST_COMMIT_MESSAGE" value="biggest level" />
+    <MESSAGE value="create spring board" />
+    <MESSAGE value="create enemy cucumber prefab" />
+    <MESSAGE value="springboard" />
+    <MESSAGE value="create bomb rotator" />
+    <option name="LAST_COMMIT_MESSAGE" value="create bomb rotator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
