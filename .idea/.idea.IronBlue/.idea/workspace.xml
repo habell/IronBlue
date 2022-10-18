@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="create new enemy type and his patrol positions">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="add next patrol position func">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPatrollable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPatrollable.cs" afterDir="false" />
     </list>
@@ -24,7 +25,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Enemyes/FlyingWhale.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Enemyes/FlyingWhale.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Interfaces/IEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Interfaces/IPatrollable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,10 +75,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10140">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="10140" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -98,7 +102,7 @@
       <workItem from="1664788871731" duration="16745000" />
       <workItem from="1664877105000" duration="1711000" />
       <workItem from="1665098530801" duration="2000" />
-      <workItem from="1666093544287" duration="8089000" />
+      <workItem from="1666093544287" duration="9122000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -436,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666124212935</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add next patrol position func">
+      <created>1666124718357</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666124718357</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +470,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="name const manager" />
     <MESSAGE value="workspace and scene save" />
     <MESSAGE value="create new folder" />
     <MESSAGE value="remove name manager" />
@@ -484,7 +494,8 @@
     <MESSAGE value="new patroller enemy" />
     <MESSAGE value="move cannon" />
     <MESSAGE value="create new enemy type and his patrol positions" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new enemy type and his patrol positions" />
+    <MESSAGE value="add next patrol position func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add next patrol position func" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
