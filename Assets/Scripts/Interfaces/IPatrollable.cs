@@ -7,5 +7,6 @@ namespace DefaultNamespace
         public void StartHunt(Transform victim);
         protected void StopHunt();
         protected void StartPatrol();
+        protected void NextPatrolPosition();
     }
 }
