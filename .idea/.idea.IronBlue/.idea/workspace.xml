@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="remove met">
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/MuzzleCannon.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPatrollable.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IPatrollable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/1-Player-Bomb Guy/PlayerAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/2-Enemy-Bald Pirate/Enemy-Bald PirateAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/3-Enemy-Cucumber/Enemy-CucumberAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/4-Enemy-Big Guy/Enemy-Big GuyAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/5-Enemy-Captain/Enemy-CaptainAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/6-Enemy-Whale/Enemy-WhaleAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/7-Objects/ObjectsAtlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/Cannon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cannon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/Cannon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cucumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/Cucumber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cucumber.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/Cucumber.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KillerBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/KillerBomb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KillerBomb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/KillerBomb.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MuzzleCannon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/MuzzleCannon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +25,11 @@
         <option name="url" value="git@github.com:habell/IronBlue.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Interfaces/IEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -116,7 +102,7 @@
       <workItem from="1664788871731" duration="16745000" />
       <workItem from="1664877105000" duration="1711000" />
       <workItem from="1665098530801" duration="2000" />
-      <workItem from="1666093544287" duration="7043000" />
+      <workItem from="1666093544287" duration="7499000" />
     </task>
     <task id="LOCAL-00001" summary="init interface">
       <created>1664655522675</created>
@@ -412,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664899074847</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Create New Folder and move this">
+      <created>1666124061944</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1666124061944</updated>
+    </task>
+    <task id="LOCAL-00044" summary="remove met">
+      <created>1666124079198</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1666124079198</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,8 +435,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="bullet factory create (need prefab)" />
-    <MESSAGE value="universal pool" />
     <MESSAGE value="add shot pos, pool and some functions" />
     <MESSAGE value="add new parameters" />
     <MESSAGE value="health interface" />
@@ -460,7 +458,9 @@
     <MESSAGE value="create enemy cucumber prefab" />
     <MESSAGE value="springboard" />
     <MESSAGE value="create bomb rotator" />
-    <option name="LAST_COMMIT_MESSAGE" value="create bomb rotator" />
+    <MESSAGE value="Create New Folder and move this" />
+    <MESSAGE value="remove met" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove met" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
