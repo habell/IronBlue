@@ -36,7 +36,7 @@ namespace Enemyes
         {
             if (col.TryGetComponent(out Player ply))
             {
-                _aiDestinationSetter.target = ply.transform;
+                StartHunt(ply.transform);
             }
         }
 
@@ -63,7 +63,7 @@ namespace Enemyes
 
         public void StartHunt(Transform victim)
         {
-            throw new NotImplementedException();
+            _aiDestinationSetter.target = victim;
         }
 
         public void StopHunt()
