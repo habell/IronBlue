@@ -58,7 +58,7 @@ namespace DefaultNamespace
         {
             if (_target)
             {
-                _muzzleCannon.Update();
+                _muzzleCannon.FixedUpdate();
             }
         }
         

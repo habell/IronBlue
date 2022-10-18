@@ -1,6 +1,6 @@
 using System;
 using DefaultNamespace;
-using DefaultNamespace.Interfaces;
+using Interfaces;
 using UnityEngine;
 
 public class Cucumber : MonoBehaviour, IEnemy
