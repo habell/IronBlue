@@ -58,7 +58,7 @@ namespace Enemyes
 
         public void StartPatrol()
         {
-            throw new System.NotImplementedException();
+            NextPatrolPosition();
         }
 
         public void StartHunt(Transform victim)
