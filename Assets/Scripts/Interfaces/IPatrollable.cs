@@ -5,8 +5,8 @@ namespace DefaultNamespace
     public interface IPatrollable
     {
         public void StartHunt(Transform victim);
-        protected void StopHunt();
-        protected void StartPatrol();
-        protected void NextPatrolPosition();
+        public void StopHunt();
+        public void StartPatrol();
+        public void NextPatrolPosition();
     }
 }
