@@ -9268,7 +9268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6196317142569279877, guid: 236b81179057ae14182b4e072c4f20b4, type: 3}
       propertyPath: m_Name
-      value: Enemy_Patroller
+      value: Enemy_FlyWhale
       objectReference: {fileID: 0}
     - target: {fileID: 6196317142569279885, guid: 236b81179057ae14182b4e072c4f20b4, type: 3}
       propertyPath: _positions.Array.data[0]
