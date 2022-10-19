@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6196317142569279884}
   - component: {fileID: 6196317142569279885}
   m_Layer: 0
-  m_Name: Enemy_Patroller
+  m_Name: Enemy_FlyWhale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
