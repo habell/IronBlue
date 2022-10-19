@@ -37,7 +37,7 @@ namespace Abstract
 
         public void StopHunt()
         {
-            throw new System.NotImplementedException();
+            NextPatrolPosition();
         }
 
         public void NextPatrolPosition()
