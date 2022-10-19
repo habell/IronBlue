@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="some scene changes">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/Patrollable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abstract/Patrollable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemyes/FlyingWhale.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="create new enemy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +22,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7e/023ae853/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Enemyes/FlyingWhale.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,35 +99,7 @@
       <workItem from="1664877105000" duration="1711000" />
       <workItem from="1665098530801" duration="2000" />
       <workItem from="1666093544287" duration="10271000" />
-      <workItem from="1666200834755" duration="5203000" />
-    </task>
-    <task id="LOCAL-00012" summary="add enemy and cannon prefab">
-      <created>1664743991451</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1664743991451</updated>
-    </task>
-    <task id="LOCAL-00013" summary="upd wks">
-      <created>1664744001706</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1664744001706</updated>
-    </task>
-    <task id="LOCAL-00014" summary="create bullet script">
-      <created>1664744059593</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1664744059593</updated>
-    </task>
-    <task id="LOCAL-00015" summary="create new level">
-      <created>1664745643160</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1664745643160</updated>
+      <workItem from="1666200834755" duration="5534000" />
     </task>
     <task id="LOCAL-00016" summary="create bullet">
       <created>1664804996767</created>
@@ -447,7 +416,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666205301614</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="add abstract class">
+      <created>1666213050086</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1666213050086</updated>
+    </task>
+    <task id="LOCAL-00062" summary="create abstract patrollable class">
+      <created>1666213080314</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1666213080314</updated>
+    </task>
+    <task id="LOCAL-00063" summary="meta">
+      <created>1666213088399</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666213088399</updated>
+    </task>
+    <task id="LOCAL-00064" summary="create new enemy">
+      <created>1666213130732</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666213130733</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,10 +467,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create level end script and his pickUp" />
-    <MESSAGE value="remove interface, and remove trygetcomponent, edit Pick function" />
-    <MESSAGE value="create and add health script for player" />
-    <MESSAGE value="biggest level" />
     <MESSAGE value="create spring board" />
     <MESSAGE value="create enemy cucumber prefab" />
     <MESSAGE value="springboard" />
@@ -495,7 +488,11 @@
     <MESSAGE value="create new folder" />
     <MESSAGE value="change patrol prefab" />
     <MESSAGE value="some scene changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some scene changes" />
+    <MESSAGE value="add abstract class" />
+    <MESSAGE value="create abstract patrollable class" />
+    <MESSAGE value="meta" />
+    <MESSAGE value="create new enemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new enemy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
