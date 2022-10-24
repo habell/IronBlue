@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Tilemaps;
 
 namespace LevelGenerator
@@ -21,7 +22,7 @@ namespace LevelGenerator
         private int _factorSmooth;
 
         [SerializeField, Range(0, 100)]
-        private int _randomProcent;
+        private int _mapFillProcent;
 
 
         public Tilemap TileMapGround => _tileMapGround;
@@ -34,6 +35,14 @@ namespace LevelGenerator
 
         public int FactorSmooth => _factorSmooth;
 
-        public int RandomProcent => _randomProcent;
+        public int MapFillProcent => _mapFillProcent;
+        
+        
+        private void Awake()
+        {
+            var levelGeneratorController = new LevelGeneratorController(this);
+            levelGeneratorController.Awake();
+            print("tetete");
+        }
     }
 }
