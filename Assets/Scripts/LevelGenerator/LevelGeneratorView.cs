@@ -4,6 +4,7 @@ using UnityEngine.Tilemaps;
 
 namespace LevelGenerator
 {
+    [RequireComponent(typeof(LevelGeneratorController))]
     public class LevelGeneratorView : MonoBehaviour
     {
         [SerializeField]
@@ -37,12 +38,5 @@ namespace LevelGenerator
 
         public int MapFillProcent => _mapFillProcent;
         
-        
-        private void Awake()
-        {
-            var levelGeneratorController = new LevelGeneratorController(this);
-            levelGeneratorController.Awake();
-            print("tetete");
-        }
     }
 }
