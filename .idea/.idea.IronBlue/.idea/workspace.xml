@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="remove non usable awake and add requare component controller">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="save workspace">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelGenerator/LevelGeneratorModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelGenerator/LevelGeneratorModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +112,7 @@
       <workItem from="1666214989156" duration="805000" />
       <workItem from="1666382140409" duration="616000" />
       <workItem from="1666460720831" duration="2017000" />
-      <workItem from="1666616799299" duration="11146000" />
-    </task>
-    <task id="LOCAL-00026" summary="create new folder">
-      <created>1664832817213</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1664832817213</updated>
+      <workItem from="1666616799299" duration="12305000" />
     </task>
     <task id="LOCAL-00027" summary="remove name manager">
       <created>1664832947097</created>
@@ -457,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666706720539</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="save workspace">
+      <created>1666707078399</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1666707078399</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +480,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="move cannon" />
     <MESSAGE value="create new enemy type and his patrol positions" />
     <MESSAGE value="add next patrol position func" />
     <MESSAGE value="remove protected funcs" />
@@ -505,7 +504,8 @@
     <MESSAGE value="refactor controller and add monobeh" />
     <MESSAGE value="move controller elemets there" />
     <MESSAGE value="remove non usable awake and add requare component controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove non usable awake and add requare component controller" />
+    <MESSAGE value="save workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="save workspace" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

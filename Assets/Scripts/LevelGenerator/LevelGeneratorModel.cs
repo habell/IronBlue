@@ -25,6 +25,9 @@ namespace LevelGenerator
         {
             RandomFillMap();
 
+            for (var i = 0; i < _view.FactorSmooth; i++)
+                SmoothMap();
+            
             PaintMap();
         }
 
@@ -42,6 +45,48 @@ namespace LevelGenerator
             }
         }
 
+        private void SmoothMap()
+        {
+            for (var x = 0; x < _view.Height; x++)
+            {
+                for (var y = 0; y < _view.Wight; y++)
+                {
+                    var neighbourWallTiles = GetSurroundingWallCount(x, y);
+                    if (neighbourWallTiles > WALLS)
+                        _map[x, y] = 1;
+                    else if (neighbourWallTiles < WALLS)
+                        _map[x, y] = 0;
+                }
+            }
+        }
+
+        private int GetSurroundingWallCount(int gridX, int gridY)
+        {
+            var wallCount = 0;
+            for (var neighbourX = gridX - 1;
+                 neighbourX <= gridX + 1;
+                 neighbourX++)
+            {
+                for (var neighbourY = gridY - 1;
+                     neighbourY <= gridY + 1;
+                     neighbourY++)
+                {
+                    if (neighbourX >= 0 && neighbourX < _view.Height && neighbourY
+                        >= 0 && neighbourY < _view.Wight)
+                    {
+                        if (neighbourX != gridX || neighbourY != gridY)
+                            wallCount += _map[neighbourX, neighbourY];
+                    }
+                    else
+                    {
+                        wallCount++;
+                    }
+                }
+            }
+
+            return wallCount;
+        }
+        
         private void RandomFillMap()
         {
             var random = new System.Random();

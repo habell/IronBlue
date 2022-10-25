@@ -206,8 +206,8 @@ MonoBehaviour:
   _tileMap: {fileID: 11400000, guid: ad871aad5fae7c34180c66ea3a852670, type: 2}
   _wight: 300
   _height: 100
-  _factorSmooth: 0
-  _mapFillProcent: 45
+  _factorSmooth: 3
+  _mapFillProcent: 52
 --- !u!114 &77034855
 MonoBehaviour:
   m_ObjectHideFlags: 0
