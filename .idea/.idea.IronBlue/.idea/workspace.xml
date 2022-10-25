@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="up workspace">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="remove non usable awake and add requare component controller">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,12 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7e/023ae853/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -107,35 +112,7 @@
       <workItem from="1666214989156" duration="805000" />
       <workItem from="1666382140409" duration="616000" />
       <workItem from="1666460720831" duration="2017000" />
-      <workItem from="1666616799299" duration="7689000" />
-    </task>
-    <task id="LOCAL-00022" summary="health interface">
-      <created>1664827460698</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1664827460698</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add DI">
-      <created>1664827515034</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1664827515035</updated>
-    </task>
-    <task id="LOCAL-00024" summary="name const manager">
-      <created>1664827537183</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1664827537183</updated>
-    </task>
-    <task id="LOCAL-00025" summary="workspace and scene save">
-      <created>1664827565044</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1664827565044</updated>
+      <workItem from="1666616799299" duration="11146000" />
     </task>
     <task id="LOCAL-00026" summary="create new folder">
       <created>1664832817213</created>
@@ -452,7 +429,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666645055104</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="save scene">
+      <created>1666645072585</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1666645072585</updated>
+    </task>
+    <task id="LOCAL-00072" summary="refactor controller and add monobeh">
+      <created>1666706639881</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1666706639881</updated>
+    </task>
+    <task id="LOCAL-00073" summary="move controller elemets there">
+      <created>1666706660290</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1666706660290</updated>
+    </task>
+    <task id="LOCAL-00074" summary="remove non usable awake and add requare component controller">
+      <created>1666706720538</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1666706720539</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,9 +480,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="remove met" />
-    <MESSAGE value="i patrollable interface" />
-    <MESSAGE value="new patroller enemy" />
     <MESSAGE value="move cannon" />
     <MESSAGE value="create new enemy type and his patrol positions" />
     <MESSAGE value="add next patrol position func" />
@@ -486,7 +488,6 @@
     <MESSAGE value="save ws" />
     <MESSAGE value="add start hunt" />
     <MESSAGE value="create enemy prefab" />
-    <MESSAGE value="save scene" />
     <MESSAGE value="create new folder" />
     <MESSAGE value="change patrol prefab" />
     <MESSAGE value="some scene changes" />
@@ -500,26 +501,18 @@
     <MESSAGE value="generator model" />
     <MESSAGE value="rename procent" />
     <MESSAGE value="up workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="up workspace" />
+    <MESSAGE value="save scene" />
+    <MESSAGE value="refactor controller and add monobeh" />
+    <MESSAGE value="move controller elemets there" />
+    <MESSAGE value="remove non usable awake and add requare component controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove non usable awake and add requare component controller" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator/LevelGeneratorController.cs</url>
-          <line>27</line>
-          <properties documentPath="C:\Users\tamik\Desktop\Unity\Projects\IronBlue\Assets\Scripts\LevelGenerator\LevelGeneratorController.cs" initialLine="27" containingFunctionPresentation="method 'GenerateLevel'">
-            <startOffsets>
-              <option value="538" />
-            </startOffsets>
-            <endOffsets>
-              <option value="554" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#LevelGenerator.LevelGeneratorModel.RandomFillMap" memberName="this" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
