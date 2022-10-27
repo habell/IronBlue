@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Some scene edit">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,14 +114,7 @@
       <workItem from="1666214989156" duration="805000" />
       <workItem from="1666382140409" duration="616000" />
       <workItem from="1666460720831" duration="2017000" />
-      <workItem from="1666616799299" duration="14515000" />
-    </task>
-    <task id="LOCAL-00030" summary="pickup base">
-      <created>1664833032271</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1664833032271</updated>
+      <workItem from="1666616799299" duration="15747000" />
     </task>
     <task id="LOCAL-00031" summary="create Health system">
       <created>1664837352717</created>
@@ -459,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666731333085</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="H7 Start">
+      <created>1666816171797</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1666816171797</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +482,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create requare, initial components, and add some func;" />
     <MESSAGE value="save ws" />
     <MESSAGE value="add start hunt" />
     <MESSAGE value="create enemy prefab" />
@@ -507,7 +506,8 @@
     <MESSAGE value="H6 complete" />
     <MESSAGE value="setup Level Random Generator" />
     <MESSAGE value="Some scene edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some scene edit" />
+    <MESSAGE value="H7 Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="H7 Start" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
