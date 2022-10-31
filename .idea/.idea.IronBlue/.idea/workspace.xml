@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,20 +19,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7e/023ae853/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/LevelGenerator/LevelGeneratorView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +50,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity\IronBlue -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\IronBlue" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -82,10 +67,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="42584">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="42584" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -115,13 +100,7 @@
       <workItem from="1666382140409" duration="616000" />
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
-    </task>
-    <task id="LOCAL-00031" summary="create Health system">
-      <created>1664837352717</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837352717</updated>
+      <workItem from="1667163310720" duration="96000" />
     </task>
     <task id="LOCAL-00032" summary="create HealthPickUp and his prefab">
       <created>1664837378831</created>
@@ -459,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666816171797</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="qsettings">
+      <created>1667163401415</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1667163401416</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +468,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="save ws" />
     <MESSAGE value="add start hunt" />
     <MESSAGE value="create enemy prefab" />
     <MESSAGE value="create new folder" />
@@ -507,7 +492,8 @@
     <MESSAGE value="setup Level Random Generator" />
     <MESSAGE value="Some scene edit" />
     <MESSAGE value="H7 Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="H7 Start" />
+    <MESSAGE value="qsettings" />
+    <option name="LAST_COMMIT_MESSAGE" value="qsettings" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
