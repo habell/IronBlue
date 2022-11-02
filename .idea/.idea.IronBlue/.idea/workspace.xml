@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="quest settings init">
-      <change afterPath="$PROJECT_DIR$/Assets/IQuestItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IQuestItem.cs.meta" afterDir="false" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Meta Files">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestItemConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestStoryConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestStoryConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/Player.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Inspections-C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Inspections-C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe" />
@@ -108,56 +114,7 @@
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
       <workItem from="1667163310720" duration="96000" />
-      <workItem from="1667391241932" duration="6089000" />
-    </task>
-    <task id="LOCAL-00033" summary="remove non usable interface">
-      <created>1664837404453</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837404453</updated>
-    </task>
-    <task id="LOCAL-00034" summary="remove dont usable">
-      <created>1664837480003</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837480003</updated>
-    </task>
-    <task id="LOCAL-00035" summary="create level end script and his pickUp">
-      <created>1664837495254</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837495254</updated>
-    </task>
-    <task id="LOCAL-00036" summary="remove interface, and remove trygetcomponent, edit Pick function">
-      <created>1664837579735</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837579735</updated>
-    </task>
-    <task id="LOCAL-00037" summary="create and add health script for player">
-      <created>1664837622561</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837622561</updated>
-    </task>
-    <task id="LOCAL-00038" summary="biggest level">
-      <created>1664837635601</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1664837635601</updated>
-    </task>
-    <task id="LOCAL-00039" summary="create spring board">
-      <created>1664898924464</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1664898924464</updated>
+      <workItem from="1667391241932" duration="9789000" />
     </task>
     <task id="LOCAL-00040" summary="create enemy cucumber prefab">
       <created>1664898943175</created>
@@ -453,7 +410,56 @@
       <option name="project" value="LOCAL" />
       <updated>1667393834490</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Move quest system in new folder">
+      <created>1667411802541</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411802541</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Init">
+      <created>1667411817071</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411817071</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Init new quests">
+      <created>1667411841107</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411841107</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add quest parameters">
+      <created>1667411856183</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411856184</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Crete quest config parameters">
+      <created>1667411997551</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411997551</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Quest story system">
+      <created>1667412026955</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412026955</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Meta Files">
+      <created>1667412044362</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412044362</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,13 +482,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create enemy prefab" />
-    <MESSAGE value="create new folder" />
-    <MESSAGE value="change patrol prefab" />
-    <MESSAGE value="some scene changes" />
-    <MESSAGE value="add abstract class" />
-    <MESSAGE value="create abstract patrollable class" />
-    <MESSAGE value="meta" />
     <MESSAGE value="create new enemy" />
     <MESSAGE value="new enemy type" />
     <MESSAGE value="remove TODO" />
@@ -490,7 +489,7 @@
     <MESSAGE value="generator model" />
     <MESSAGE value="rename procent" />
     <MESSAGE value="up workspace" />
-    <MESSAGE value="save scene" />
+    <MESSAGE value="Save scene" />
     <MESSAGE value="refactor controller and add monobeh" />
     <MESSAGE value="move controller elemets there" />
     <MESSAGE value="remove non usable awake and add requare component controller" />
@@ -500,8 +499,15 @@
     <MESSAGE value="Some scene edit" />
     <MESSAGE value="H7 Start" />
     <MESSAGE value="qsettings" />
-    <MESSAGE value="quest settings init" />
-    <option name="LAST_COMMIT_MESSAGE" value="quest settings init" />
+    <MESSAGE value="Quest settings init" />
+    <MESSAGE value="Move quest system in new folder" />
+    <MESSAGE value="Init" />
+    <MESSAGE value="Init new quests" />
+    <MESSAGE value="Add quest parameters" />
+    <MESSAGE value="Create quest config parameters" />
+    <MESSAGE value="Quest story system" />
+    <MESSAGE value="Meta Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meta Files" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

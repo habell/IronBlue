@@ -22,7 +22,12 @@ namespace Quests
         {
             _defaultColor = GetComponent<SpriteRenderer>().color;
         }
-        
+
+        private void OnCollisionEnter2D(Collision2D col)
+        {
+            var contactObject = col.gameObject.GetComponent<Player>();
+            ObjectContact?.Invoke(contactObject);
+        }
 
         public void ProcessComplete()
         {
