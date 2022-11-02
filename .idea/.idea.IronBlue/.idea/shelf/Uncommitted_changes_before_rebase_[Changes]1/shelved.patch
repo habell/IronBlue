@@ -1,0 +1,247 @@
+Index: Assets/Data/Quests/Player.asset.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/Player.asset.meta b/Assets/Data/Quests/Player.asset.meta
+new file mode 100644
+--- /dev/null	(date 1667411902303)
++++ b/Assets/Data/Quests/Player.asset.meta	(date 1667411902303)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: baccea44c6d04de6bc73971276fdee67
++timeCreated: 1667411902
+\ No newline at end of file
+Index: Assets/Scripts/Quests/QuestItemConfig.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Quests/QuestItemConfig.cs b/Assets/Scripts/Quests/QuestItemConfig.cs
+new file mode 100644
+--- /dev/null	(date 1667411901560)
++++ b/Assets/Scripts/Quests/QuestItemConfig.cs	(date 1667411901560)
+@@ -0,0 +1,16 @@
++using System.Collections.Generic;
++using UnityEngine;
++
++[CreateAssetMenu(fileName = "QuestItemConfig", menuName = "Quest system/Quest Item Config")]
++public class QuestItemConfig : ScriptableObject
++{
++    [SerializeField]
++    private int _questID;
++
++    [SerializeField]
++    private List<int> _questItemIDCollection;
++
++    public List<int> QuestItemIDCollection => _questItemIDCollection;
++
++    public int QuestID => _questID;
++}
+\ No newline at end of file
+Index: Assets/Scripts/Quests/QuestStoryConfig.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Quests/QuestStoryConfig.cs b/Assets/Scripts/Quests/QuestStoryConfig.cs
+new file mode 100644
+--- /dev/null	(date 1667411901945)
++++ b/Assets/Scripts/Quests/QuestStoryConfig.cs	(date 1667411901945)
+@@ -0,0 +1,21 @@
++using UnityEngine;
++
++[CreateAssetMenu(fileName = "QuestStoryConfig", menuName = "Quest system/Story Configuration")]
++public class QuestStoryConfig : ScriptableObject
++{
++    [SerializeField]
++    private QuestConfig[] _quests;
++
++    [SerializeField]
++    private QuestStoryType _storyType;
++
++    public QuestConfig[] Quests => _quests;
++
++    public QuestStoryType StoryType => _storyType;
++}
++
++public enum QuestStoryType
++{
++    Common,
++    Reusable,
++}
+\ No newline at end of file
+Index: Assets/Data/Quests/QuestStoryConfig.asset.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/QuestStoryConfig.asset.meta b/Assets/Data/Quests/QuestStoryConfig.asset.meta
+new file mode 100644
+--- /dev/null	(date 1667411902068)
++++ b/Assets/Data/Quests/QuestStoryConfig.asset.meta	(date 1667411902068)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 6e2b38320a5848009346b39fb18e03ee
++timeCreated: 1667411902
+\ No newline at end of file
+Index: Assets/Data/Quests/Player.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/Player.asset b/Assets/Data/Quests/Player.asset
+new file mode 100644
+--- /dev/null	(date 1667411901969)
++++ b/Assets/Data/Quests/Player.asset	(date 1667411901969)
+@@ -0,0 +1,18 @@
++%YAML 1.1
++%TAG !u! tag:unity3d.com,2011:
++--- !u!114 &11400000
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 0}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: a8b995c16b1f4c818c43a436d55bbaf3, type: 3}
++  m_Name: Player
++  m_EditorClassIdentifier: 
++  _parameters:
++    MaxJumpValue: 300
++    MaxSpeed: 4
++    Health: 100
+Index: Assets/Scripts/Quests/QuestItemConfig.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Quests/QuestItemConfig.cs.meta b/Assets/Scripts/Quests/QuestItemConfig.cs.meta
+new file mode 100644
+--- /dev/null	(date 1667411902240)
++++ b/Assets/Scripts/Quests/QuestItemConfig.cs.meta	(date 1667411902240)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: d01f5665a6ae45ac9072d6f510ac50d8
++timeCreated: 1667411902
+\ No newline at end of file
+Index: Assets/Data/Quests/QuestItemConfig.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/QuestItemConfig.asset b/Assets/Data/Quests/QuestItemConfig.asset
+new file mode 100644
+--- /dev/null	(date 1667411901995)
++++ b/Assets/Data/Quests/QuestItemConfig.asset	(date 1667411901995)
+@@ -0,0 +1,16 @@
++%YAML 1.1
++%TAG !u! tag:unity3d.com,2011:
++--- !u!114 &11400000
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 0}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 3f63a2c8dbf4496d9ad9c8ef3aa50d44, type: 3}
++  m_Name: QuestItemConfig
++  m_EditorClassIdentifier: 
++  _questID: 0
++  _questItemIDCollection: 
+Index: Assets/Scripts/Quests/QuestStoryConfig.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Quests/QuestStoryConfig.cs.meta b/Assets/Scripts/Quests/QuestStoryConfig.cs.meta
+new file mode 100644
+--- /dev/null	(date 1667411902272)
++++ b/Assets/Scripts/Quests/QuestStoryConfig.cs.meta	(date 1667411902272)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: a987aa1ac80044f89074de857ad9e795
++timeCreated: 1667411902
+\ No newline at end of file
+Index: Assets/Scripts/Quests.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Quests.meta b/Assets/Scripts/Quests.meta
+new file mode 100644
+--- /dev/null	(date 1667411901338)
++++ b/Assets/Scripts/Quests.meta	(date 1667411901338)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: b116b8e5301d2ee4498a436000a680cb
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Data/Quests/QuestItemConfig.asset.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/QuestItemConfig.asset.meta b/Assets/Data/Quests/QuestItemConfig.asset.meta
+new file mode 100644
+--- /dev/null	(date 1667411902333)
++++ b/Assets/Data/Quests/QuestItemConfig.asset.meta	(date 1667411902333)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: d26b3a4e851449d0ab182d92a7394117
++timeCreated: 1667411902
+\ No newline at end of file
+Index: Assets/Data/Quests/QuestStoryConfig.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests/QuestStoryConfig.asset b/Assets/Data/Quests/QuestStoryConfig.asset
+new file mode 100644
+--- /dev/null	(date 1667411901523)
++++ b/Assets/Data/Quests/QuestStoryConfig.asset	(date 1667411901523)
+@@ -0,0 +1,18 @@
++%YAML 1.1
++%TAG !u! tag:unity3d.com,2011:
++--- !u!114 &11400000
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 0}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 896c6659dacb4f899d0ecfebeef7b56e, type: 3}
++  m_Name: QuestStoryConfig
++  m_EditorClassIdentifier: 
++  _quests:
++  - {fileID: 11400000, guid: 438fe06d3f1128140895634cbc192909, type: 2}
++  - {fileID: 11400000, guid: cd99c9b1323efcf40b99cdf2cd8da1c3, type: 2}
++  _storyType: 0
+Index: Assets/Data/Quests.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Data/Quests.meta b/Assets/Data/Quests.meta
+new file mode 100644
+--- /dev/null	(date 1667411901505)
++++ b/Assets/Data/Quests.meta	(date 1667411901505)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: eb41cca67ff0a864d93a4240f0928131
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
