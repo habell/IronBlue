@@ -21,22 +21,25 @@ namespace Quests
         private void Awake()
         {
             _defaultColor = GetComponent<SpriteRenderer>().color;
+            GetComponent<BoxCollider2D>().isTrigger = true;
         }
 
-        private void OnCollisionEnter2D(Collision2D col)
+        private void OnTriggerEnter2D(Collider2D col)
         {
-            var contactObject = col.gameObject.GetComponent<Player>();
-            ObjectContact?.Invoke(contactObject);
+            if (col.gameObject.TryGetComponent(out Player ply))
+            {
+                ObjectContact?.Invoke(ply);
+            }
         }
 
         public void ProcessComplete()
         {
-            
+            print("Quest COMPLETE!");
         }
 
         public void ProcessActivate()
         {
-            
+            print("START QUEST!");
         }
     }
 }
