@@ -18,6 +18,7 @@ namespace Quests
         {
             _view = view;
             _model = model;
+            //ResetQuest();
         }
 
         public void ResetQuest()
