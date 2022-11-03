@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Rebase changes">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Request, Dispose and Contact func added.">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/SwitchQuestModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/SwitchQuestModel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/Player.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestItemConfig.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestStoryConfig.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestObjectView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -108,14 +110,7 @@
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
       <workItem from="1667163310720" duration="96000" />
-      <workItem from="1667391241932" duration="15084000" />
-    </task>
-    <task id="LOCAL-00046" summary="new patroller enemy">
-      <created>1666124147704</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124147704</updated>
+      <workItem from="1667391241932" duration="16047000" />
     </task>
     <task id="LOCAL-00047" summary="move cannon">
       <created>1666124175345</created>
@@ -453,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667416953787</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Request, Dispose and Contact func added.">
+      <created>1667491564995</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1667491564995</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +478,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="rename procent" />
     <MESSAGE value="up workspace" />
     <MESSAGE value="Save scene" />
     <MESSAGE value="refactor controller and add monobeh" />
@@ -501,7 +502,8 @@
     <MESSAGE value="Initial write" />
     <MESSAGE value="Add collision contact checker." />
     <MESSAGE value="Rebase changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebase changes" />
+    <MESSAGE value="Request, Dispose and Contact func added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Request, Dispose and Contact func added." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
