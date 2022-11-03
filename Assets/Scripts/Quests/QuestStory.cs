@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace Quests
 {
-    public class QuestStory : IQuestStory
+    public class QuestStory : IQuestStory, IDisposable
     {
         private readonly List<IQuest> _questsCollection;
         public bool IsDone => _questsCollection.All(value => value.IsCompleted);
@@ -16,9 +17,20 @@ namespace Quests
             ResetQuest(0);
         }
 
-        private void ResetQuest(int i)
+        private void ResetQuest(int questIndex)
         {
-            _questsCollection[i].ResetQuest();
+            if (questIndex < 0 || questIndex >= _questsCollection.Count) return;
+
+            var newQuest = _questsCollection[questIndex];
+
+            if (newQuest.IsCompleted)
+            {
+                OnQuestCompleted(newQuest);
+            }
+            else
+            {
+                newQuest.ResetQuest();
+            }
         }
 
         private void Subscribe()
@@ -49,6 +61,11 @@ namespace Quests
             {
                 ResetQuest(++questIndex);
             }
+        }
+
+        public void Dispose()
+        {
+            UnSubscribe();
         }
     }
 }
