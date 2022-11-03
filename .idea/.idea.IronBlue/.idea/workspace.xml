@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Request, Dispose and Contact func added.">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/SwitchQuestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/SwitchQuestModel.cs.meta" afterDir="false" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Add new quest type">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestStory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestStory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestConfigurator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestConfigurator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +81,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25132">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25132" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -110,21 +115,7 @@
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
       <workItem from="1667163310720" duration="96000" />
-      <workItem from="1667391241932" duration="16047000" />
-    </task>
-    <task id="LOCAL-00047" summary="move cannon">
-      <created>1666124175345</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124175345</updated>
-    </task>
-    <task id="LOCAL-00048" summary="create new enemy type and his patrol positions">
-      <created>1666124212935</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124212935</updated>
+      <workItem from="1667391241932" duration="18516000" />
     </task>
     <task id="LOCAL-00049" summary="add next patrol position func">
       <created>1666124718357</created>
@@ -455,7 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667491564995</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Quest configurator init.">
+      <created>1667492835730</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1667492835730</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Add new quest type">
+      <created>1667492860302</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1667492860302</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,8 +483,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="up workspace" />
-    <MESSAGE value="Save scene" />
     <MESSAGE value="refactor controller and add monobeh" />
     <MESSAGE value="move controller elemets there" />
     <MESSAGE value="remove non usable awake and add requare component controller" />
@@ -503,7 +506,9 @@
     <MESSAGE value="Add collision contact checker." />
     <MESSAGE value="Rebase changes" />
     <MESSAGE value="Request, Dispose and Contact func added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Request, Dispose and Contact func added." />
+    <MESSAGE value="Quest configurator init." />
+    <MESSAGE value="Add new quest type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new quest type" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
