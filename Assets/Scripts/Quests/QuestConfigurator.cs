@@ -13,6 +13,7 @@ namespace Quests
         private void Awake()
         {
             _quest = new Quest(_sigleQuestView, new SwitchQuestModel());
+            _quest.ResetQuest();
         }
 
         private void OnDestroy()
