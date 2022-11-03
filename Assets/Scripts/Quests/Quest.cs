@@ -22,12 +22,17 @@ namespace Quests
 
         public void ResetQuest()
         {
-            throw new NotImplementedException();
+            if (_isActive) return;
+
+            _isActive = true;
+            IsCompleted = false;
+            _view.ObjectContact += OnContact;
+            _view.ProcessActivate();
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _view.ObjectContact -= OnContact;
         }
 
         private void Complete()
@@ -47,8 +52,9 @@ namespace Quests
 
         private void OnContact(Player obj)
         {
-            //TODO:
-            Debug.Log("print");
+            var completed = _model.TryComplete(obj.gameObject);
+            
+            if(completed) Complete();
         }
     }
 }

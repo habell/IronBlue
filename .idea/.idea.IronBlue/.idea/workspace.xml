@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Meta Files">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/IQuestModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs.meta" afterDir="false" />
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Rebase changes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7e/023ae853/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/Player.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestItemConfig.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestStoryConfig.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestObjectView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,49 +108,7 @@
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
       <workItem from="1667163310720" duration="96000" />
-      <workItem from="1667391241932" duration="9789000" />
-    </task>
-    <task id="LOCAL-00040" summary="create enemy cucumber prefab">
-      <created>1664898943175</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1664898943175</updated>
-    </task>
-    <task id="LOCAL-00041" summary="springboard">
-      <created>1664899053463</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1664899053463</updated>
-    </task>
-    <task id="LOCAL-00042" summary="create bomb rotator">
-      <created>1664899074847</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1664899074847</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Create New Folder and move this">
-      <created>1666124061944</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124061944</updated>
-    </task>
-    <task id="LOCAL-00044" summary="remove met">
-      <created>1666124079198</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124079198</updated>
-    </task>
-    <task id="LOCAL-00045" summary="i patrollable interface">
-      <created>1666124114710</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1666124114710</updated>
+      <workItem from="1667391241932" duration="15084000" />
     </task>
     <task id="LOCAL-00046" summary="new patroller enemy">
       <created>1666124147704</created>
@@ -459,7 +411,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667412044362</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Write contract">
+      <created>1667416758589</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416758589</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Write contract">
+      <created>1667416776239</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416776241</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Add ctor, complete, and some functions">
+      <created>1667416843314</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416843314</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Initial write">
+      <created>1667416890891</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416890891</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Add collision contact checker.">
+      <created>1667416935100</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416935100</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Rebase changes">
+      <created>1667416953787</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1667416953787</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,11 +476,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="create new enemy" />
-    <MESSAGE value="new enemy type" />
-    <MESSAGE value="remove TODO" />
-    <MESSAGE value="level generator controller" />
-    <MESSAGE value="generator model" />
     <MESSAGE value="rename procent" />
     <MESSAGE value="up workspace" />
     <MESSAGE value="Save scene" />
@@ -507,7 +496,12 @@
     <MESSAGE value="Create quest config parameters" />
     <MESSAGE value="Quest story system" />
     <MESSAGE value="Meta Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meta Files" />
+    <MESSAGE value="Write contract" />
+    <MESSAGE value="Add ctor, complete, and some functions" />
+    <MESSAGE value="Initial write" />
+    <MESSAGE value="Add collision contact checker." />
+    <MESSAGE value="Rebase changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebase changes" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
