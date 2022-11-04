@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="Really hard quest configuration.">
+    <list default="true" id="bf9ae423-c025-482c-8243-e5121550294e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IronBlue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestItemConfig.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Quests/QuestStoryConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestConfigurator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestConfigurator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestObjectView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +32,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7e/023ae853/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/Player.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestItemConfig.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Data/Quests/QuestStoryConfig.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestConfigurator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestConfigurator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestObjectView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestObjectView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestObjectView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tamik/Desktop/Unity/Projects/IronBlue/Assets/Scripts/Quests/QuestStory.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,10 +79,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25132">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="25132" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -114,14 +113,8 @@
       <workItem from="1666460720831" duration="2017000" />
       <workItem from="1666616799299" duration="15747000" />
       <workItem from="1667163310720" duration="96000" />
-      <workItem from="1667391241932" duration="23809000" />
-    </task>
-    <task id="LOCAL-00055" summary="remove TODO">
-      <created>1666126725574</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1666126725574</updated>
+      <workItem from="1667391241932" duration="25223000" />
+      <workItem from="1667567735998" duration="1426000" />
     </task>
     <task id="LOCAL-00056" summary="create enemy prefab">
       <created>1666126805653</created>
@@ -459,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667507927705</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Save project, added first quest.">
+      <created>1667507993431</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1667507993431</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +482,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Some scene edit" />
     <MESSAGE value="H7 Start" />
     <MESSAGE value="qsettings" />
     <MESSAGE value="Quest settings init" />
@@ -507,7 +506,8 @@
     <MESSAGE value="Added start and complete debug info, and added default enable trigger in his collider." />
     <MESSAGE value="Quest reset function modification." />
     <MESSAGE value="Really hard quest configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Really hard quest configuration." />
+    <MESSAGE value="Save project, added first quest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Save project, added first quest." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
