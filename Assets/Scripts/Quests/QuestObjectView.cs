@@ -35,6 +35,7 @@ namespace Quests
         public void ProcessComplete()
         {
             print("Quest COMPLETE!");
+            GetComponent<SpriteRenderer>().color = _completeColor;
         }
 
         public void ProcessActivate()
