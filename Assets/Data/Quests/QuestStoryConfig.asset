@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896c6659dacb4f899d0ecfebeef7b56e, type: 3}
+  m_Script: {fileID: 11500000, guid: 96ae89640e4247c4960fb2d5e5bfb5c5, type: 3}
   m_Name: QuestStoryConfig
   m_EditorClassIdentifier: 
   _quests:
   - {fileID: 11400000, guid: 438fe06d3f1128140895634cbc192909, type: 2}
   - {fileID: 11400000, guid: cd99c9b1323efcf40b99cdf2cd8da1c3, type: 2}
+  - {fileID: 11400000, guid: 9e4bbd0bbfe56914d95379ef9bfbc6a4, type: 2}
   _storyType: 0
